@@ -1,0 +1,6 @@
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\bin\Debug\Northwind.Entitities.dll
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\bin\Debug\Northwind.Entitities.pdb
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\obj\Debug\Northwind.Entitities.csprojAssemblyReference.cache
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\obj\Debug\Northwind.Entitities.csproj.CoreCompileInputs.cache
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\obj\Debug\Northwind.Entitities.dll
+C:\Users\esrag\source\repos\proje2.1\Northwind.Entitities\obj\Debug\Northwind.Entitities.pdb

@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    <br />
+   Proje Hakkında Bilgileri Öğrenmek İçin Tıklayınız
+</button>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Metin Girişi</h2>
+            </div>
+            <form method="post" action="#">
+                <div class="modal-body">
+                    <label>Business</label>
+                    <input type="text" name="#" class="form-control" />
+                    <br />
+                    <label>DataAccess</label>
+                    <input type="text" name="#" class="form-control" />
+                    <br />
+                    <label>Entities</label>
+                    <input type="text" name="#" class="form-control" />
+                    <br />
+                    <label>WebForm</label>
+                    <input type="text" name="#" class="form-control" />
+                    <br />
+                    <label>WebUI</label>
+                    <input type="text" name="#" class="form-control" />
+                    <br />
+                    <button class="btn btn-info">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

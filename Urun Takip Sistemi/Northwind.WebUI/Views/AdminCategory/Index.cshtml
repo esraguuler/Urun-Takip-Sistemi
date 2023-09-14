@@ -1,0 +1,34 @@
+﻿
+@using Northwind.Entitities.Concrete
+@model List<Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<table class=" = table table-bordered">
+    <tr>
+        <th>Category ID</th>
+        <th>Category Name</th>
+        <th>Güncelle</th>
+       
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.CategoryId</td>
+        <td>@item.CategoryName</td>
+
+
+        <td><a href="/AdminCategory/EditCategory/@item.CategoryId" class="btn btn-primary">Güncelle</a></td>
+       
+
+    </tr>
+    }
+</table>
+
+
